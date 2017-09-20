@@ -165,7 +165,7 @@ After the missing values are handled, the frequency of steps whose number equals
 df_noNA$date <- as.character(df_noNA$date)
 df_noNA$date <- as.Date(df_noNA$date)
 df_noNA <- mutate(df_noNA, day=weekdays(date))
-df_noNA <- mutate(df_noNA, IfWeekend = ifelse((day=="Saturday"|day=="Sunday"),"Weekend","Weekday"))
+df_noNA <- mutate(df_noNA, IfWeekend = ifelse((day=="ÐÇÆÚÁù"|day=="ÐÇÆÚÈÕ"),"Weekend","Weekday"))
 df_noNA$interval <- as.factor(df_noNA$interval)
 df_noNA$IfWeekend <- as.factor(df_noNA$IfWeekend)
 
