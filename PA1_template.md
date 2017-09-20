@@ -53,7 +53,7 @@ abline(v = median_step, lwd=2, col = "yellow")
 text(median_step, 9, "Median Value")
 ```
 
-![plot of chunk get the mean steps taken each day](figure/get the mean steps taken each day-1.png)
+![plot of chunk get the mean steps taken each day](https://github.com/wbaz4321/RepData_PeerAssessment1/tree/master/figure/get the mean steps taken each day-1.png)
 
 The mean total number of steps taken perday is:
 
