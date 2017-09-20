@@ -53,7 +53,7 @@ abline(v = median_step, lwd=2, col = "yellow")
 text(median_step, 9, "Median Value")
 ```
 
-![plot of chunk get the mean steps taken each day](figure/get the mean steps taken each day-1.png)
+![plot of chunk get the mean steps taken each day](https://github.com/wbaz4321/RepData_PeerAssessment1/blob/master/figure/get%20the%20mean%20steps%20taken%20each%20day-1.png)
 
 The mean total number of steps taken perday is:
 
@@ -90,7 +90,7 @@ g <- g + guides("legend")
 print(g)
 ```
 
-![plot of chunk get average steps on each interval across all days](figure/get average steps on each interval across all days-1.png)
+![plot of chunk get average steps on each interval across all days](https://github.com/wbaz4321/RepData_PeerAssessment1/blob/master/figure/get%20average%20steps%20on%20each%20interval%20across%20all%20days-1.png)
 
 The following codes calculate the 5-minute interval which contains the maximum steps
 
@@ -173,7 +173,7 @@ abline(v = median_step, lwd=2, col = "yellow")
 text(median_step, 9, "Median Value")
 ```
 
-![plot of chunk impute missing values](figure/impute missing values-1.png)
+![plot of chunk impute missing values](https://github.com/wbaz4321/RepData_PeerAssessment1/blob/master/figure/impute%20missing%20values-1.png)
 
 The mean total number of steps taken perday is:
 
@@ -229,5 +229,5 @@ g <- g + theme(plot.title = element_text(hjust = 0.5))
 print(g)
 ```
 
-![plot of chunk evaluate the day](figure/evaluate the day-1.png)
+![plot of chunk evaluate the day](https://github.com/wbaz4321/RepData_PeerAssessment1/blob/master/figure/evaluate%20the%20day-1.png)
 The plot tells us that the steps taken in morning of weekdays is greater than steps taken in weekend mornings; during the afternoon, steps taken in weekdays and weekend are similar.
